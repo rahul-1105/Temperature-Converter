@@ -14,20 +14,20 @@
             <h1 class="temp-heading">Temperature Converter</h1>
             <div class="converter">
                 <div class="left">
-                    <input type="text">
-                    <select>
-                        <option selected="1">Degree Celsius</option>
-                        <option>Fahrenheit</option>
-                        <option>Kelvin</option>
+                    <input class="left-input" type="text" value="0">
+                    <select class="unit-left">
+                        <option value"Celsius" selected="0">Degree Celsius</option>
+                        <option value"Fahrenheit">Fahrenheit</option>
+                        <option value"Kelvin">Kelvin</option>
                     </select>
                 </div>
                 <div class="center">=</div>
                 <div class="right">
-                    <input type="text">
-                    <select>
-                        <option>Degree Celsius</option>
-                        <option selected="1">Fahrenheit</option>
-                        <option>Kelvin</option>
+                    <input class="right-input" disabled type="text" value="32">
+                    <select class="unit-right">
+                        <option value"Celsius">Degree Celsius</option>
+                        <option value"Fahrenheit" selected="1">Fahrenheit</option>
+                        <option value"Kelvin">Kelvin</option>
                     </select>
                 </div>
             </div>
